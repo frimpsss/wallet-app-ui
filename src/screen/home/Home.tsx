@@ -10,7 +10,9 @@ const Home = () => {
       justifyContent: "center", 
       backgroundColor: colors.white
     }}>
-      <Text>Home</Text>
+      <Text style={{
+        fontFamily: "poppins-regular"
+      }}>Home</Text>
     </View>
   )
 }

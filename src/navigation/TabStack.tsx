@@ -18,8 +18,8 @@ function TabStack() {
     >
       <Tab.Screen name={screens.home} component={Home} />
       <Tab.Screen name={screens.wallet} component={Wallet} />
-      <Tab.Screen name={screens.settings} component={Settings} />
       <Tab.Screen name={screens.chart} component={Chart} />
+      <Tab.Screen name={screens.settings} component={Settings} />
     </Tab.Navigator>
   );
 }

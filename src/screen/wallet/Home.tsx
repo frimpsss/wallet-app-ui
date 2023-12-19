@@ -1,18 +1,26 @@
-import { View, Text } from 'react-native'
-import React from 'react'
-import { colors } from '../../utils'
+import { View, Text } from "react-native";
+import React from "react";
+import { colors } from "../../utils";
 
 const Home = () => {
   return (
-    <View style={{
-      flex: 1, 
-      alignItems: "center", 
-      justifyContent: "center", 
-      backgroundColor: colors.white
-    }}>
-      <Text>Wallet Home</Text>
+    <View
+      style={{
+        flex: 1,
+        alignItems: "center",
+        justifyContent: "center",
+        backgroundColor: colors.white,
+      }}
+    >
+      <Text
+        style={{
+          fontFamily: "poppins-regular",
+        }}
+      >
+        Wallet
+      </Text>
     </View>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
