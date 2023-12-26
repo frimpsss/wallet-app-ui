@@ -6,3 +6,9 @@ An attemps to clone a ui I saw on instagram
 |        Screenshot 1        |        Screenshot 2        |
 | :------------------------: | :------------------------: |
 | ![](./screenshots/ss1.png) | ![](./screenshots/ss2.png) |
+
+## FINISH HOME SCREEN
+
+|        Screenshot 1        |
+| :------------------------: | 
+| ![](./screenshots/ss3.png) | 

@@ -19,10 +19,9 @@ function TabBar({ descriptors, navigation, state }: BottomTabBarProps) {
           paddingBottom: 7,
           paddingTop: 10,
           width: sizes.screenWidth,
-          justifyContent: "space-between",
-          paddingHorizontal: sizes.screenWidth / 15,
+          paddingHorizontal: sizes.screenWidth / 50,
           borderTopColor: colors.lightGray, 
-          borderTopWidth: 2
+          borderTopWidth: 2,
         }}
       >
         {state.routes.map((route: any, index) => {
@@ -92,6 +91,7 @@ function TabBar({ descriptors, navigation, state }: BottomTabBarProps) {
                 flexDirection: "column",
                 alignItems: "center",
                 gap: 5,
+                flex: 1
               }}
             >
               {renderIcons(label)}
